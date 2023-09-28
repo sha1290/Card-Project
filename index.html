@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        background-color: #85ffbd;
+        background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+        display:flex;
+        justify-content: center;
+        align-items:center ;
+      }
+      .card{
+        width: 280px;
+        height: 470px;
+        background-color: white;
+        border-radius: 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 30px;
+      }
+
+      .card img{
+        height:57%;
+        border-radius: 15px;
+      }
+      .h2{
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+      .card p{
+        font-size: 1.0em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="card">
+            <h2>Pay Now</h2>
+            <img 
+              src="images/orCode.jpeg"
+              />
+
+              <h2>Pay your monthly rent here!</h2>
+              <p>Pay through any payment app like GooglePay, Paytm, PhonePe, Bhim and many more...</p>
+           
+        </div>
+    </div>
+  </body>
+</html>
